@@ -6,22 +6,24 @@ socialmedia is an app that allows users to "make/edit/delete" posts,
 
 [Demonstration video](https://www.youtube.com/watch?v=OgwhJx4r3ko)
 
-# clone repository
-  git clone https://github.com/OmarSwailam/socialmedia.git
+Installation:
 
-# Create a virtualenv(optional)
-  python3 -m venv venv
+    # clone repository
+      git clone https://github.com/OmarSwailam/socialmedia.git
 
-
-# Install all dependencies
-   pip install -r requirements.txt
+    # Create a virtualenv(optional)
+     python3 -m venv venv
 
 
-# Activate the virtualenv
-  source venv/bin/activate or .venv/bin/activate
+    # Install all dependencies
+      pip install -r requirements.txt
 
-# Run application
- ./manage.py runserver or python manage.py runserver
+
+    # Activate the virtualenv
+      source venv/bin/activate or .venv/bin/activate
+
+    # Run application
+     ./manage.py runserver or python manage.py runserver
  
  
 Author: Omar Swailam
