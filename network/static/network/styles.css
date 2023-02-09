@@ -1,0 +1,142 @@
+.pagination {
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+
+}
+
+.pagination-btn {
+    margin: auto;
+}
+
+.pagination a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+.pagination a.active {
+    background-color: rgba(6, 81, 6, 0.536);
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.post-card {
+    padding: 50px;
+    margin: 10px;
+    margin-top: 50px;
+    box-shadow: 0 8px 16px 0 #0000003e;
+    transition: 0.3s;
+    border-radius: 2%;
+    top: 50%;
+    left: 50%;
+
+}
+
+.post-content {
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.main-heading {
+    position: relative;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.main-heading>a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.sub-heading {
+    display: inline;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #080808;
+    margin-bottom: 0;
+}
+
+
+.sub-heading>a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.edit-delete {
+    position:absolute;
+    right: 20px;
+}
+
+.comment {
+    margin-bottom: 3px;
+    white-space: nowrap;
+}
+
+.comment a, p {
+    display: inline;
+}
+
+.profile-link {
+    display: inline;
+}
+
+.edit-delete> form {
+    display: inline-block;
+}
+
+
+.btn-outline-dark:hover {
+    box-shadow: 0 0 16px rgba(6, 81, 6, 0.536);
+}
+
+.alert {
+    position: absolute;
+    z-index: 101;
+    right: 10px;
+    margin: 0;
+    display: none;
+}
+
+.errorlist {
+    color: red;
+    list-style-type: none;
+    margin: 0;
+}
+
+i {
+    font-size: x-large;
+}
+
+a {
+    color: inherit;
+    text-decoration-color: rgba(6, 81, 6, 0.536);
+}
+
+a:hover {
+    color: rgba(6, 29, 56, 0.536);
+}
+
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+.uneditable-input:focus,
+.form-control:focus {
+    border-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(6, 81, 6, 0.536);
+    outline: 0 none;
+}
