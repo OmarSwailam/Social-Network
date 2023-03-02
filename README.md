@@ -1,4 +1,4 @@
-# Socialmedia
+# Social Network
 
 Using Python in the backend to build the apis, JavaScript to fetch requests, HTML, CSS and Bootstrap
 
