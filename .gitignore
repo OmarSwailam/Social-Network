@@ -3,6 +3,8 @@
 *.pot
 *.pyc
 __pycache__
+__pycache__/
+**/__pycache__/
 db.sqlite3
 media
 
@@ -114,7 +116,7 @@ venv.bak/
 # Sublime Text #
 *.tmlanguage.cache
 *.tmPreferences.cache
-*.stTheme.cache 
+*.stTheme.cache
 *.sublime-workspace
 *.sublime-project
 
